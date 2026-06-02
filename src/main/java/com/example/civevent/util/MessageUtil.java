@@ -1,4 +1,4 @@
-package com.raffe.civevent.util;
+package com.example.civevent.util;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
