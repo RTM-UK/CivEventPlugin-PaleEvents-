@@ -1,7 +1,7 @@
-package com.raffe.civevent.service;
+package com.example.civevent.service;
 
-import com.raffe.civevent.model.EventData;
-import com.raffe.civevent.model.Nation;
+import com.example.civevent.model.EventData;
+import com.example.civevent.model.Nation;
 import org.bukkit.Location;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import static com.raffe.civevent.util.TextUtil.key;
+import static com.example.civevent.util.TextUtil.key;
 
 public final class StateService {
     private final JavaPlugin plugin;
