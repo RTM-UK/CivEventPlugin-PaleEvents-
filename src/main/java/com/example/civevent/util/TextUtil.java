@@ -1,4 +1,4 @@
-package com.raffe.civevent.util;
+package com.example.civevent.util;
 
 import org.jetbrains.annotations.Nullable;
 
