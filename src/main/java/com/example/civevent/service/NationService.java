@@ -1,6 +1,6 @@
-package com.raffe.civevent.service;
+package com.example.civevent.service;
 
-import com.raffe.civevent.model.Nation;
+import com.example.civevent.model.Nation;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
