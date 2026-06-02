@@ -1,8 +1,8 @@
-package com.raffe.civevent.service;
+package com.example.civevent.service;
 
-import com.raffe.civevent.model.EventData;
-import com.raffe.civevent.model.SessionData;
-import com.raffe.civevent.util.JsonLogger;
+import com.example.civevent.model.EventData;
+import com.example.civevent.model.SessionData;
+import com.example.civevent.util.JsonLogger;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -18,11 +18,11 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.raffe.civevent.util.MessageUtil.TEXT;
-import static com.raffe.civevent.util.MessageUtil.highlight;
-import static com.raffe.civevent.util.MessageUtil.success;
-import static com.raffe.civevent.util.TextUtil.formatDuration;
-import static com.raffe.civevent.util.TextUtil.key;
+import static com.example.civevent.util.MessageUtil.TEXT;
+import static com.example.civevent.util.MessageUtil.highlight;
+import static com.example.civevent.util.MessageUtil.success;
+import static com.example.civevent.util.TextUtil.formatDuration;
+import static com.example.civevent.util.TextUtil.key;
 
 public final class SessionService {
     private final JavaPlugin plugin;
