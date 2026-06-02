@@ -1,0 +1,33 @@
+package com.example.civevent.model;
+
+public final class EventData {
+    private final String name;
+    private String description;
+    private String worldName;
+
+    public EventData(String name, String description, String worldName) {
+        this.name = name;
+        this.description = description;
+        this.worldName = worldName;
+    }
+
+    public String name() {
+        return name;
+    }
+
+    public String description() {
+        return description;
+    }
+
+    public void description(String description) {
+        this.description = description;
+    }
+
+    public String worldName() {
+        return worldName;
+    }
+
+    public void worldName(String worldName) {
+        this.worldName = worldName;
+    }
+}
