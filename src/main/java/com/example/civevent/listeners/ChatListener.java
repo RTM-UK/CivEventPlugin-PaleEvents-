@@ -1,9 +1,9 @@
-package com.raffe.civevent.listeners;
+package com.RTM.civevent.listeners;
 
-import com.raffe.civevent.model.Nation;
-import com.raffe.civevent.service.NationService;
-import com.raffe.civevent.service.StateService;
-import com.raffe.civevent.util.JsonLogger;
+import com.RTM.civevent.model.Nation;
+import com.RTM.civevent.service.NationService;
+import com.RTM.civevent.service.StateService;
+import com.RTM.civevent.util.JsonLogger;
 import io.papermc.paper.event.player.AsyncChatEvent;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
@@ -14,7 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Map;
 
-import static com.raffe.civevent.util.MessageUtil.error;
+import static com.RTM.civevent.util.MessageUtil.error;
 
 public final class ChatListener implements Listener {
     private final JavaPlugin plugin;
