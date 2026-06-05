@@ -1,7 +1,7 @@
-package com.raffe.civevent.listeners;
+package com.RTM.civevent.listeners;
 
-import com.raffe.civevent.service.NationService;
-import com.raffe.civevent.service.SessionService;
+import com.RTM.civevent.service.NationService;
+import com.RTM.civevent.service.SessionService;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerChangedWorldEvent;
